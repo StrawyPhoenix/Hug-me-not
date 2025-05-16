@@ -15,7 +15,7 @@ C:/Users/ALUMNO/Documents/GitHub/Hug-me-not/Hug me not
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50342
+50980
 Successfully changed project path to: C:/Users/ALUMNO/Documents/GitHub/Hug-me-not/Hug me not
 C:/Users/ALUMNO/Documents/GitHub/Hug-me-not/Hug me not
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,14 @@ C:/Users/ALUMNO/Documents/GitHub/Hug-me-not/Hug me not
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [9444]  Target information:
+Player connection [3352]  Target information:
 
-Player connection [9444]  * "[IP] 192.168.60.96 [Port] 0 [Flags] 2 [Guid] 3189485368 [EditorId] 3189485368 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-S8L7CBM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [3352]  * "[IP] 192.168.60.96 [Port] 0 [Flags] 2 [Guid] 896019414 [EditorId] 896019414 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-S8L7CBM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [9444] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [9444] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [3352] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [3352] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 11.16 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 16.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.55f1 (9f374180d209)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.55f1/Editor/Data/Resources/UnitySubsystems
@@ -72,44 +72,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.55f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.55f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.55f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56220
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56108
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.55f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004657 seconds.
-- Loaded All Assemblies, in  0.291 seconds
+Registered in 0.007079 seconds.
+- Loaded All Assemblies, in  0.466 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.215 seconds
-Domain Reload Profiling: 505ms
-	BeginReloadAssembly (93ms)
+- Finished resetting the current domain, in  0.273 seconds
+Domain Reload Profiling: 737ms
+	BeginReloadAssembly (110ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (107ms)
-		LoadAssemblies (91ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (106ms)
+	LoadAllAssembliesAndSetupDomain (208ms)
+		LoadAssemblies (109ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (105ms)
-			TypeCache.Refresh (104ms)
-				TypeCache.ScanAssembly (94ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (216ms)
+		AnalyzeDomain (206ms)
+			TypeCache.Refresh (204ms)
+				TypeCache.ScanAssembly (180ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (273ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (178ms)
+		SetupLoadedEditorAssemblies (219ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (123ms)
-			ProcessInitializeOnLoadMethodAttributes (40ms)
+			ProcessInitializeOnLoadAttributes (152ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,942 +118,324 @@ Domain Reload Profiling: 505ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.566 seconds
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.607 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.505 seconds
-Domain Reload Profiling: 1069ms
-	BeginReloadAssembly (124ms)
+- Finished resetting the current domain, in  0.679 seconds
+Domain Reload Profiling: 1284ms
+	BeginReloadAssembly (152ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (370ms)
-		LoadAssemblies (271ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (363ms)
+		LoadAssemblies (335ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (171ms)
-			TypeCache.Refresh (146ms)
-				TypeCache.ScanAssembly (130ms)
+		AnalyzeDomain (120ms)
+			TypeCache.Refresh (99ms)
+				TypeCache.ScanAssembly (83ms)
 			ScanForSourceGeneratedMonoScriptInfo (17ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (506ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (679ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (385ms)
+		SetupLoadedEditorAssemblies (542ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (279ms)
-			ProcessInitializeOnLoadMethodAttributes (30ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (334ms)
+			ProcessInitializeOnLoadMethodAttributes (131ms)
 			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 5.05 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 9.89 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4144 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 33 unused Assets / (57.6 KB). Loaded Objects now: 4614.
-Memory consumption went from 142.7 MB to 142.6 MB.
-Total: 4.412400 ms (FindLiveObjects: 0.346400 ms CreateObjectMapping: 0.315200 ms MarkObjects: 3.634700 ms  DeleteObjects: 0.115400 ms)
+Unloading 2493 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (53.3 KB). Loaded Objects now: 2967.
+Memory consumption went from 104.5 MB to 104.5 MB.
+Total: 6.778600 ms (FindLiveObjects: 0.176400 ms CreateObjectMapping: 0.058600 ms MarkObjects: 6.457300 ms  DeleteObjects: 0.085600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 421.413175 seconds.
-  path: Assets/New Physic Material.physicMaterial
-  artifactKey: Guid(462ee419c0b26d54ebcf85558d2eb940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Physic Material.physicMaterial using Guid(462ee419c0b26d54ebcf85558d2eb940) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '490ae950dc973899fdb832eb09bf8897') in 0.012412 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Prepare
-Couldn't register non-exiting asset root folder: 'Assets'
-Assertion failed on expression: 'success'
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.308 seconds
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.352 seconds
-Domain Reload Profiling: 661ms
-	BeginReloadAssembly (156ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (34ms)
-	RebuildCommonClasses (106ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (12ms)
-		LoadAssemblies (79ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (8ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (353ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (239ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (6ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (81ms)
-			ProcessInitializeOnLoadAttributes (120ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 2.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1671 unused Assets / (1.0 MB). Loaded Objects now: 2943.
-Memory consumption went from 66.0 MB to 65.0 MB.
-Total: 5.061500 ms (FindLiveObjects: 0.309800 ms CreateObjectMapping: 0.219000 ms MarkObjects: 2.964100 ms  DeleteObjects: 1.567800 ms)
-
-Prepare: number of updated asset objects reloaded= 7
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Unity.2D.Aseprite.Common:  -> 6f32d9da0697a1bcfc71999c7b08d0ec
-  custom:scripting/monoscript/fileName/AnimationPlayableAsset.cs:  -> 009db08c97e92a2c69986ab256d074e2
-  custom:scripting/precompiled-assembly-types:Unity.PlasticSCM.Editor:  -> 7e4e003063ee77e81fbf11080919f8e6
-  custom:scripting/precompiled-assembly-types:Unity.Burst.Unsafe:  -> 4f83dd30d4d7964b63b36d2fe1e95684
-  custom:scripting/precompiled-assembly-types:Unity.Performance.Profile-Analyzer.Editor:  -> e1bfc0e7188f9eeca54cb211a0aba1bc
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.Core:  -> 0a21fb0e1386cc0544df7b99dc92b4ac
-  custom:scripting/monoscript/fileName/AnimationTrack.cs:  -> 579258c150686ede8cacf1f75da21715
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.State.Editor:  -> bfd19d10497364660dabdb7b0dffedf3
-  custom:scripting/precompiled-assembly-types:Unity.2D.Animation.Runtime:  -> 5dd1fd56d4abaf44f56b4de87ec96439
-  custom:scripting/precompiled-assembly-types:Unity.Burst.Editor:  -> 1bb453082d9d949b60d566d3187c97d1
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.State:  -> a1b84a027925ee482b6dab13e9d110f3
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.SettingsProvider.Editor:  -> 41414d03caeb8d6946e082e3faf34ce7
-  custom:scripting/precompiled-assembly-types:Unity.2D.Psdimporter.Editor:  -> ed563be6c9b4eabe02cd35dbfcc1f959
-  custom:scripting/precompiled-assembly-types:Unity.Burst.CodeGen:  -> 16c6c1c8fc0531945282884ffe84c4a6
-  custom:scripting/precompiled-assembly-types:Unity.2D.Tilemap.Extras:  -> 9722aa6e48a25d628be73e787a5a1bb9
-  custom:scripting/precompiled-assembly-types:Unity.2D.Common.Editor:  -> 7cbb781a6c9c3533080bdeaa9f578bb7
-  custom:scripting/precompiled-assembly-types:Unity.Collections.DocCodeSamples:  -> 23ba9e0c5ef3e46a6ff4f5179d85b4a5
-  custom:scripting/precompiled-assembly-types:Unity.TestTools.CodeCoverage.Editor.OpenCover.Model:  -> 392eba37ada58ebddffce0d6be5344c8
-  custom:scripting/monoscript/fileName/IsometricRuleTile.cs:  -> 226477e0fda8299a797033f4381d7b8f
-  custom:scripting/precompiled-assembly-types:Unity.2D.Aseprite.Editor:  -> a32e53fc284c0205a1827901e44ec098
-  custom:scripting/monoscript/fileName/TextMeshPro.cs:  -> 0cfab9de2f927cf0a5e3dc6276498acd
-  custom:scripting/precompiled-assembly-types:Unity.2D.PixelPerfect.Editor:  -> 1dd2c8662b54f7c48656e3e8769dcc99
-  custom:scripting/precompiled-assembly-types:Unity.2D.Sprite.Editor:  -> 1774135f6b0ba60c86e1eb3c8b700a0f
-  custom:scripting/precompiled-assembly-types:Unity.Burst.Cecil.Pdb:  -> 542ee58f25ed060f438b710d2d8b4fbd
-  custom:scripting/precompiled-assembly-types:Unity.2D.PixelPerfect:  -> b4d87180cdb666d4e563f0feb63adff6
-  custom:scripting/precompiled-assembly-types:Unity.Burst:  -> 813d3b3d85b4f226cca91b96115edc25
-  custom:scripting/precompiled-assembly-types:Unity.TestTools.CodeCoverage.Editor:  -> d149527e5c885a7c3085f4e656316fb7
-  custom:scripting/precompiled-assembly-types:ReportGeneratorMerged:  -> a1824cb2563ee3a5abc6d3e314b6fbb6
-  custom:scripting/precompiled-assembly-types:Unity.CollabProxy.Editor:  -> 719513884e06ae88ec6448b0e7ccc543
-  custom:scripting/precompiled-assembly-types:Unity.2D.Common.Runtime:  -> d57b2527d87b399232fb649a533f9748
-  custom:scripting/precompiled-assembly-types:Unity.Timeline.Editor:  -> 534d7c71c4dd9147ea00599cede121e1
-  custom:scripting/precompiled-assembly-types:Unity.2D.Common.Path.Editor:  -> 67ef6a7d0ffe69b88d4a058454e0baa3
-  custom:scripting/precompiled-assembly-types:Unity.EditorCoroutines.Editor:  -> 939c1390cec4719064bc8982808f80e1
-  custom:scripting/precompiled-assembly-types:Unity.Collections.BurstCompatibilityGen:  -> d26056d813c945132a21ff9f8750c98e
-  custom:scripting/precompiled-assembly-types:Unity.2D.Tilemap.Editor:  -> fa4ad37e7074ee4a4f87ffa5759d6263
-  custom:scripting/precompiled-assembly-types:Unity.Burst.Cecil.Mdb:  -> 267a0ac2928f725ab1cc9882bbfb898d
-  custom:scripting/precompiled-assembly-types:Unity.Mathematics:  -> eda48956a0bece48f802264722748d9b
-  custom:scripting/precompiled-assembly-types:Unity.2D.SpriteShape.Runtime:  -> 7951efc3114d3b5dd81068bf56c35699
-  custom:scripting/monoscript/fileName/AsepriteImporter.cs:  -> 75abe4fbe831928e105d619d45f5475b
-  custom:scripting/precompiled-assembly-types:UnityEditor.UI:  -> 6bae215471362000d6dbd3e0ee304a50
-  custom:scripting/precompiled-assembly-types:JetBrains.Rider.PathLocator:  -> cc0f6b5fd89737b9c88f7fff1881167a
-  custom:scripting/monoscript/fileName/TimelineAssetViewModel.cs:  -> 18a79fa063972d49f8538ad72ae7e75c
-  custom:scripting/precompiled-assembly-types:log4net:  -> 019978558686b3dbe60f5be7e8a69682
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.TextureAssets:  -> c56209796e0bbe0cf0954c819164de90
-  custom:scripting/precompiled-assembly-types:Unity.Timeline:  -> b058d380530d91aefff3cf869316d3f0
-  custom:scripting/precompiled-assembly-types:Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection:  -> 0065f084a5e0ee2eda32260040c06f1b
-  custom:scripting/precompiled-assembly-types:Unity.InternalAPIEngineBridge.001:  -> 727c2dd33fd9ba33b3b36d8b0abec3e5
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.Shared.Editor:  -> b1bd646cbd56acfef4597dda0faf849f
-  custom:scripting/precompiled-assembly-types:Unity.2D.IK.Runtime:  -> 834d071a903607973ce53cf2b60adb28
-  custom:scripting/precompiled-assembly-types:Unity.Burst.Cecil.Rocks:  -> 437ffcd7628e1436004701f82021574b
-  custom:scripting/precompiled-assembly-types:nunit.framework:  -> de9c6147ae45b4e3446d0e562fb3bbe3
-  custom:scripting/precompiled-assembly-types:Unity.Plastic.Newtonsoft.Json:  -> c587937513b02a3c784dfd4229f1b707
-  custom:scripting/precompiled-assembly-types:Unity.2D.SpriteShape.Editor:  -> cbc7af36169d11bf1609bbe7544dfc2f
-  custom:scripting/precompiled-assembly-types:Unity.Plastic.Antlr3.Runtime:  -> 6770513df7cfb4050a1e6f0a02312f5b
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.Core.Editor:  -> 39597c0f3a76e24d87d64afa59c5f88d
-  custom:scripting/monoscript/fileName/RuleTile.cs:  -> f5f493643c39cafead8f05df075b38cf
-  custom:scripting/monoscript/fileName/TextMeshProUGUI.cs:  -> b783d06a82b0620f102e3253b4b9fc9b
-  custom:scripting/precompiled-assembly-types:UnityEngine.TestRunner:  -> f5758234275f5346968d00e3b1a1c0e4
-  custom:scripting/precompiled-assembly-types:Unity.Settings.Editor:  -> beb7650f4acfb920369c4b53d5d1d8a0
-  custom:scripting/precompiled-assembly-types:Unity.2D.Tilemap.Extras.Editor:  -> 5ad91861b07fefd995e74ac55c89582d
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.YamlDotNet:  -> 42147c7a78dea3b36998a42e40ee1ca1
-  custom:scripting/precompiled-assembly-types:Unity.Burst.Cecil:  -> 997689720027a6523ba4efde94923b20
-  custom:scripting/precompiled-assembly-types:Unity.2D.Animation.Editor:  -> 9e298d922ee71fa5cbd30bb22b8f952c
-  custom:scripting/monoscript/fileName/PSDImporter.cs:  -> 426789f17a6318790dfce4403b2d57e3
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.Antlr3.Runtime:  -> faf423e1a2226361a83dad1da848e5b7
-  custom:scripting/precompiled-assembly-types:Unity.Collections:  -> 3ed35f6c42a4ff122eae303a72eec4b3
-  custom:scripting/precompiled-assembly-types:Unity.VSCode.Editor:  -> ce0f8be6c84057ddac8877610b9e6a0a
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.IonicZip:  -> cbdf74419b68ead93c00ca698cf31212
-  custom:scripting/monoscript/fileName/IKManager2D.cs:  -> 3556a5b41605dae06bbc257d2027da25
-  custom:scripting/precompiled-assembly-types:Unity.InternalAPIEditorBridge.001:  -> 45d5b02872a3f4596a832ecd8c76a116
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.Flow:  -> bc99c07bfe2ca209f1879006fb72d2cd
-  custom:scripting/precompiled-assembly-types:UnityEngine.UI:  -> f762135bac905e34e2b540c872c48817
-  custom:scripting/precompiled-assembly-types:Unity.Mathematics.Editor:  -> 067e2f26d70b07279a04fc60a0f0bbd6
-  custom:scripting/precompiled-assembly-types:Unity.2D.IK.Editor:  -> e3d97772a4bdb39570c653c83bcebd60
-  custom:scripting/monoscript/fileName/TimelineAsset.cs:  -> 922c4504d3900c9d0f1009b93072bf15
-  custom:scripting/precompiled-assembly-types:Unity.Collections.LowLevel.ILSupport:  -> fc98657c35e94db2b30cdf006548cc51
-  custom:scripting/precompiled-assembly-types:Unity.TextMeshPro.Editor:  -> 46ffe279a7239cd1fb74eb9c5ab5b5d8
-  custom:scripting/precompiled-assembly-types:PsdPlugin:  -> e45729d552f17846bff33f77f53e4e2d
-  custom:scripting/precompiled-assembly-types:Unity.VisualStudio.Editor:  -> 8196c7ff3a716df6975b114b464f1975
-  custom:scripting/monoscript/fileName/HexagonalRuleTile.cs:  -> 06dd7fca2700fb4aaa03a7cd13f58833
-  custom:scripting/monoscript/fileName/TrackAsset.cs:  -> 05c366eb01e12385210cbb2c784bc95b
-  custom:scripting/precompiled-assembly-types:UnityEditor.TestRunner:  -> 1b08a5e3d69264f3b8177a3e839577fe
-  custom:scripting/precompiled-assembly-types:Unity.TextMeshPro:  -> 59230975e8163396a463bd906828ec67
-  custom:scripting/monoscript/fileName/TimelineWindow.cs:  -> 1ecae22b1c6d42e0f96084d9a8d5699a
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp:  -> ec0e5f84c3a0076fe6b3c3a8b00baf13
-  custom:scripting/precompiled-assembly-types:unityplastic:  -> 26b58a4695bcfc4bd2b1d359ee452308
-  custom:scripting/precompiled-assembly-types:Unity.Rider.Editor:  -> 332fda7feca3dc3cf0d3d930da452a26
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.Flow.Editor:  -> db5f2770bb05e70eb00d2307d36e9057
-========================================================================
-Received Prepare
-Couldn't register non-exiting asset root folder: 'Assets'
-Assertion failed on expression: 'success'
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.174 seconds
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.297 seconds
-Domain Reload Profiling: 470ms
-	BeginReloadAssembly (114ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (16ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (19ms)
-	LoadAllAssembliesAndSetupDomain (5ms)
-		LoadAssemblies (71ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (3ms)
-			TypeCache.Refresh (2ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (298ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (208ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (114ms)
-			ProcessInitializeOnLoadMethodAttributes (17ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 1.35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 2936.
-Memory consumption went from 64.3 MB to 64.3 MB.
-Total: 2.188000 ms (FindLiveObjects: 0.204900 ms CreateObjectMapping: 0.100700 ms MarkObjects: 1.870100 ms  DeleteObjects: 0.011800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Unity.2D.Aseprite.Common:  -> 6f32d9da0697a1bcfc71999c7b08d0ec
-  custom:scripting/monoscript/fileName/AnimationPlayableAsset.cs:  -> 009db08c97e92a2c69986ab256d074e2
-  custom:scripting/precompiled-assembly-types:Unity.PlasticSCM.Editor:  -> 7e4e003063ee77e81fbf11080919f8e6
-  custom:scripting/precompiled-assembly-types:Unity.Burst.Unsafe:  -> 4f83dd30d4d7964b63b36d2fe1e95684
-  custom:scripting/precompiled-assembly-types:Unity.Performance.Profile-Analyzer.Editor:  -> e1bfc0e7188f9eeca54cb211a0aba1bc
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.Core:  -> 0a21fb0e1386cc0544df7b99dc92b4ac
-  custom:scripting/monoscript/fileName/AnimationTrack.cs:  -> 579258c150686ede8cacf1f75da21715
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.State.Editor:  -> bfd19d10497364660dabdb7b0dffedf3
-  custom:scripting/precompiled-assembly-types:Unity.2D.Animation.Runtime:  -> 5dd1fd56d4abaf44f56b4de87ec96439
-  custom:scripting/precompiled-assembly-types:Unity.Burst.Editor:  -> 1bb453082d9d949b60d566d3187c97d1
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.State:  -> a1b84a027925ee482b6dab13e9d110f3
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.SettingsProvider.Editor:  -> 41414d03caeb8d6946e082e3faf34ce7
-  custom:scripting/precompiled-assembly-types:Unity.2D.Psdimporter.Editor:  -> ed563be6c9b4eabe02cd35dbfcc1f959
-  custom:scripting/precompiled-assembly-types:Unity.Burst.CodeGen:  -> 16c6c1c8fc0531945282884ffe84c4a6
-  custom:scripting/precompiled-assembly-types:Unity.2D.Tilemap.Extras:  -> 9722aa6e48a25d628be73e787a5a1bb9
-  custom:scripting/precompiled-assembly-types:Unity.2D.Common.Editor:  -> 7cbb781a6c9c3533080bdeaa9f578bb7
-  custom:scripting/precompiled-assembly-types:Unity.Collections.DocCodeSamples:  -> 23ba9e0c5ef3e46a6ff4f5179d85b4a5
-  custom:scripting/precompiled-assembly-types:Unity.TestTools.CodeCoverage.Editor.OpenCover.Model:  -> 392eba37ada58ebddffce0d6be5344c8
-  custom:scripting/monoscript/fileName/IsometricRuleTile.cs:  -> 226477e0fda8299a797033f4381d7b8f
-  custom:scripting/precompiled-assembly-types:Unity.2D.Aseprite.Editor:  -> a32e53fc284c0205a1827901e44ec098
-  custom:scripting/monoscript/fileName/TextMeshPro.cs:  -> 0cfab9de2f927cf0a5e3dc6276498acd
-  custom:scripting/precompiled-assembly-types:Unity.2D.PixelPerfect.Editor:  -> 1dd2c8662b54f7c48656e3e8769dcc99
-  custom:scripting/precompiled-assembly-types:Unity.2D.Sprite.Editor:  -> 1774135f6b0ba60c86e1eb3c8b700a0f
-  custom:scripting/precompiled-assembly-types:Unity.Burst.Cecil.Pdb:  -> 542ee58f25ed060f438b710d2d8b4fbd
-  custom:scripting/precompiled-assembly-types:Unity.2D.PixelPerfect:  -> b4d87180cdb666d4e563f0feb63adff6
-  custom:scripting/precompiled-assembly-types:Unity.Burst:  -> 813d3b3d85b4f226cca91b96115edc25
-  custom:scripting/precompiled-assembly-types:Unity.TestTools.CodeCoverage.Editor:  -> d149527e5c885a7c3085f4e656316fb7
-  custom:scripting/precompiled-assembly-types:ReportGeneratorMerged:  -> a1824cb2563ee3a5abc6d3e314b6fbb6
-  custom:scripting/precompiled-assembly-types:Unity.CollabProxy.Editor:  -> 719513884e06ae88ec6448b0e7ccc543
-  custom:scripting/precompiled-assembly-types:Unity.2D.Common.Runtime:  -> d57b2527d87b399232fb649a533f9748
-  custom:scripting/precompiled-assembly-types:Unity.Timeline.Editor:  -> 534d7c71c4dd9147ea00599cede121e1
-  custom:scripting/precompiled-assembly-types:Unity.2D.Common.Path.Editor:  -> 67ef6a7d0ffe69b88d4a058454e0baa3
-  custom:scripting/precompiled-assembly-types:Unity.EditorCoroutines.Editor:  -> 939c1390cec4719064bc8982808f80e1
-  custom:scripting/precompiled-assembly-types:Unity.Collections.BurstCompatibilityGen:  -> d26056d813c945132a21ff9f8750c98e
-  custom:scripting/precompiled-assembly-types:Unity.2D.Tilemap.Editor:  -> fa4ad37e7074ee4a4f87ffa5759d6263
-  custom:scripting/precompiled-assembly-types:Unity.Burst.Cecil.Mdb:  -> 267a0ac2928f725ab1cc9882bbfb898d
-  custom:scripting/precompiled-assembly-types:Unity.Mathematics:  -> eda48956a0bece48f802264722748d9b
-  custom:scripting/precompiled-assembly-types:Unity.2D.SpriteShape.Runtime:  -> 7951efc3114d3b5dd81068bf56c35699
-  custom:scripting/monoscript/fileName/AsepriteImporter.cs:  -> 75abe4fbe831928e105d619d45f5475b
-  custom:scripting/precompiled-assembly-types:UnityEditor.UI:  -> 6bae215471362000d6dbd3e0ee304a50
-  custom:scripting/precompiled-assembly-types:JetBrains.Rider.PathLocator:  -> cc0f6b5fd89737b9c88f7fff1881167a
-  custom:scripting/monoscript/fileName/TimelineAssetViewModel.cs:  -> 18a79fa063972d49f8538ad72ae7e75c
-  custom:scripting/precompiled-assembly-types:log4net:  -> 019978558686b3dbe60f5be7e8a69682
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.TextureAssets:  -> c56209796e0bbe0cf0954c819164de90
-  custom:scripting/precompiled-assembly-types:Unity.Timeline:  -> b058d380530d91aefff3cf869316d3f0
-  custom:scripting/precompiled-assembly-types:Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection:  -> 0065f084a5e0ee2eda32260040c06f1b
-  custom:scripting/precompiled-assembly-types:Unity.InternalAPIEngineBridge.001:  -> 727c2dd33fd9ba33b3b36d8b0abec3e5
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.Shared.Editor:  -> b1bd646cbd56acfef4597dda0faf849f
-  custom:scripting/precompiled-assembly-types:Unity.2D.IK.Runtime:  -> 834d071a903607973ce53cf2b60adb28
-  custom:scripting/precompiled-assembly-types:Unity.Burst.Cecil.Rocks:  -> 437ffcd7628e1436004701f82021574b
-  custom:scripting/precompiled-assembly-types:nunit.framework:  -> de9c6147ae45b4e3446d0e562fb3bbe3
-  custom:scripting/precompiled-assembly-types:Unity.Plastic.Newtonsoft.Json:  -> c587937513b02a3c784dfd4229f1b707
-  custom:scripting/precompiled-assembly-types:Unity.2D.SpriteShape.Editor:  -> cbc7af36169d11bf1609bbe7544dfc2f
-  custom:scripting/precompiled-assembly-types:Unity.Plastic.Antlr3.Runtime:  -> 6770513df7cfb4050a1e6f0a02312f5b
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.Core.Editor:  -> 39597c0f3a76e24d87d64afa59c5f88d
-  custom:scripting/monoscript/fileName/RuleTile.cs:  -> f5f493643c39cafead8f05df075b38cf
-  custom:scripting/monoscript/fileName/TextMeshProUGUI.cs:  -> b783d06a82b0620f102e3253b4b9fc9b
-  custom:scripting/precompiled-assembly-types:UnityEngine.TestRunner:  -> f5758234275f5346968d00e3b1a1c0e4
-  custom:scripting/precompiled-assembly-types:Unity.Settings.Editor:  -> beb7650f4acfb920369c4b53d5d1d8a0
-  custom:scripting/precompiled-assembly-types:Unity.2D.Tilemap.Extras.Editor:  -> 5ad91861b07fefd995e74ac55c89582d
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.YamlDotNet:  -> 42147c7a78dea3b36998a42e40ee1ca1
-  custom:scripting/precompiled-assembly-types:Unity.Burst.Cecil:  -> 997689720027a6523ba4efde94923b20
-  custom:scripting/precompiled-assembly-types:Unity.2D.Animation.Editor:  -> 9e298d922ee71fa5cbd30bb22b8f952c
-  custom:scripting/monoscript/fileName/PSDImporter.cs:  -> 426789f17a6318790dfce4403b2d57e3
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.Antlr3.Runtime:  -> faf423e1a2226361a83dad1da848e5b7
-  custom:scripting/precompiled-assembly-types:Unity.Collections:  -> 3ed35f6c42a4ff122eae303a72eec4b3
-  custom:scripting/precompiled-assembly-types:Unity.VSCode.Editor:  -> ce0f8be6c84057ddac8877610b9e6a0a
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.IonicZip:  -> cbdf74419b68ead93c00ca698cf31212
-  custom:scripting/monoscript/fileName/IKManager2D.cs:  -> 3556a5b41605dae06bbc257d2027da25
-  custom:scripting/precompiled-assembly-types:Unity.InternalAPIEditorBridge.001:  -> 45d5b02872a3f4596a832ecd8c76a116
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.Flow:  -> bc99c07bfe2ca209f1879006fb72d2cd
-  custom:scripting/precompiled-assembly-types:UnityEngine.UI:  -> f762135bac905e34e2b540c872c48817
-  custom:scripting/precompiled-assembly-types:Unity.Mathematics.Editor:  -> 067e2f26d70b07279a04fc60a0f0bbd6
-  custom:scripting/precompiled-assembly-types:Unity.2D.IK.Editor:  -> e3d97772a4bdb39570c653c83bcebd60
-  custom:scripting/monoscript/fileName/TimelineAsset.cs:  -> 922c4504d3900c9d0f1009b93072bf15
-  custom:scripting/precompiled-assembly-types:Unity.Collections.LowLevel.ILSupport:  -> fc98657c35e94db2b30cdf006548cc51
-  custom:scripting/precompiled-assembly-types:Unity.TextMeshPro.Editor:  -> 46ffe279a7239cd1fb74eb9c5ab5b5d8
-  custom:scripting/precompiled-assembly-types:PsdPlugin:  -> e45729d552f17846bff33f77f53e4e2d
-  custom:scripting/precompiled-assembly-types:Unity.VisualStudio.Editor:  -> 8196c7ff3a716df6975b114b464f1975
-  custom:scripting/monoscript/fileName/HexagonalRuleTile.cs:  -> 06dd7fca2700fb4aaa03a7cd13f58833
-  custom:scripting/monoscript/fileName/TrackAsset.cs:  -> 05c366eb01e12385210cbb2c784bc95b
-  custom:scripting/precompiled-assembly-types:UnityEditor.TestRunner:  -> 1b08a5e3d69264f3b8177a3e839577fe
-  custom:scripting/precompiled-assembly-types:Unity.TextMeshPro:  -> 59230975e8163396a463bd906828ec67
-  custom:scripting/monoscript/fileName/TimelineWindow.cs:  -> 1ecae22b1c6d42e0f96084d9a8d5699a
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp:  -> ec0e5f84c3a0076fe6b3c3a8b00baf13
-  custom:scripting/precompiled-assembly-types:unityplastic:  -> 26b58a4695bcfc4bd2b1d359ee452308
-  custom:scripting/precompiled-assembly-types:Unity.Rider.Editor:  -> 332fda7feca3dc3cf0d3d930da452a26
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.Flow.Editor:  -> db5f2770bb05e70eb00d2307d36e9057
-========================================================================
-Received Prepare
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.169 seconds
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.297 seconds
-Domain Reload Profiling: 466ms
-	BeginReloadAssembly (110ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (14ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (19ms)
-	LoadAllAssembliesAndSetupDomain (5ms)
-		LoadAssemblies (69ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (3ms)
-			TypeCache.Refresh (2ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (298ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (195ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (104ms)
-			ProcessInitializeOnLoadMethodAttributes (15ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 1.37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 2936.
-Memory consumption went from 64.3 MB to 64.3 MB.
-Total: 2.192400 ms (FindLiveObjects: 0.198900 ms CreateObjectMapping: 0.088400 ms MarkObjects: 1.892200 ms  DeleteObjects: 0.012500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Unity.2D.Aseprite.Common:  -> 6f32d9da0697a1bcfc71999c7b08d0ec
-  custom:scripting/monoscript/fileName/AnimationPlayableAsset.cs:  -> 009db08c97e92a2c69986ab256d074e2
-  custom:scripting/precompiled-assembly-types:Unity.PlasticSCM.Editor:  -> 7e4e003063ee77e81fbf11080919f8e6
-  custom:scripting/precompiled-assembly-types:Unity.Burst.Unsafe:  -> 4f83dd30d4d7964b63b36d2fe1e95684
-  custom:scripting/precompiled-assembly-types:Unity.Performance.Profile-Analyzer.Editor:  -> e1bfc0e7188f9eeca54cb211a0aba1bc
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.Core:  -> 0a21fb0e1386cc0544df7b99dc92b4ac
-  custom:scripting/monoscript/fileName/AnimationTrack.cs:  -> 579258c150686ede8cacf1f75da21715
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.State.Editor:  -> bfd19d10497364660dabdb7b0dffedf3
-  custom:scripting/precompiled-assembly-types:Unity.2D.Animation.Runtime:  -> 5dd1fd56d4abaf44f56b4de87ec96439
-  custom:scripting/precompiled-assembly-types:Unity.Burst.Editor:  -> 1bb453082d9d949b60d566d3187c97d1
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.State:  -> a1b84a027925ee482b6dab13e9d110f3
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.SettingsProvider.Editor:  -> 41414d03caeb8d6946e082e3faf34ce7
-  custom:scripting/precompiled-assembly-types:Unity.2D.Psdimporter.Editor:  -> ed563be6c9b4eabe02cd35dbfcc1f959
-  custom:scripting/precompiled-assembly-types:Unity.Burst.CodeGen:  -> 16c6c1c8fc0531945282884ffe84c4a6
-  custom:scripting/precompiled-assembly-types:Unity.2D.Tilemap.Extras:  -> 9722aa6e48a25d628be73e787a5a1bb9
-  custom:scripting/precompiled-assembly-types:Unity.2D.Common.Editor:  -> 7cbb781a6c9c3533080bdeaa9f578bb7
-  custom:scripting/precompiled-assembly-types:Unity.Collections.DocCodeSamples:  -> 23ba9e0c5ef3e46a6ff4f5179d85b4a5
-  custom:scripting/precompiled-assembly-types:Unity.TestTools.CodeCoverage.Editor.OpenCover.Model:  -> 392eba37ada58ebddffce0d6be5344c8
-  custom:scripting/monoscript/fileName/IsometricRuleTile.cs:  -> 226477e0fda8299a797033f4381d7b8f
-  custom:scripting/precompiled-assembly-types:Unity.2D.Aseprite.Editor:  -> a32e53fc284c0205a1827901e44ec098
-  custom:scripting/monoscript/fileName/TextMeshPro.cs:  -> 0cfab9de2f927cf0a5e3dc6276498acd
-  custom:scripting/precompiled-assembly-types:Unity.2D.PixelPerfect.Editor:  -> 1dd2c8662b54f7c48656e3e8769dcc99
-  custom:scripting/precompiled-assembly-types:Unity.2D.Sprite.Editor:  -> 1774135f6b0ba60c86e1eb3c8b700a0f
-  custom:scripting/precompiled-assembly-types:Unity.Burst.Cecil.Pdb:  -> 542ee58f25ed060f438b710d2d8b4fbd
-  custom:scripting/precompiled-assembly-types:Unity.2D.PixelPerfect:  -> b4d87180cdb666d4e563f0feb63adff6
-  custom:scripting/precompiled-assembly-types:Unity.Burst:  -> 813d3b3d85b4f226cca91b96115edc25
-  custom:scripting/precompiled-assembly-types:Unity.TestTools.CodeCoverage.Editor:  -> d149527e5c885a7c3085f4e656316fb7
-  custom:scripting/precompiled-assembly-types:ReportGeneratorMerged:  -> a1824cb2563ee3a5abc6d3e314b6fbb6
-  custom:scripting/precompiled-assembly-types:Unity.CollabProxy.Editor:  -> 719513884e06ae88ec6448b0e7ccc543
-  custom:scripting/precompiled-assembly-types:Unity.2D.Common.Runtime:  -> d57b2527d87b399232fb649a533f9748
-  custom:scripting/precompiled-assembly-types:Unity.Timeline.Editor:  -> 534d7c71c4dd9147ea00599cede121e1
-  custom:scripting/precompiled-assembly-types:Unity.2D.Common.Path.Editor:  -> 67ef6a7d0ffe69b88d4a058454e0baa3
-  custom:scripting/precompiled-assembly-types:Unity.EditorCoroutines.Editor:  -> 939c1390cec4719064bc8982808f80e1
-  custom:scripting/precompiled-assembly-types:Unity.Collections.BurstCompatibilityGen:  -> d26056d813c945132a21ff9f8750c98e
-  custom:scripting/precompiled-assembly-types:Unity.2D.Tilemap.Editor:  -> fa4ad37e7074ee4a4f87ffa5759d6263
-  custom:scripting/precompiled-assembly-types:Unity.Burst.Cecil.Mdb:  -> 267a0ac2928f725ab1cc9882bbfb898d
-  custom:scripting/precompiled-assembly-types:Unity.Mathematics:  -> eda48956a0bece48f802264722748d9b
-  custom:scripting/precompiled-assembly-types:Unity.2D.SpriteShape.Runtime:  -> 7951efc3114d3b5dd81068bf56c35699
-  custom:scripting/monoscript/fileName/AsepriteImporter.cs:  -> 75abe4fbe831928e105d619d45f5475b
-  custom:scripting/precompiled-assembly-types:UnityEditor.UI:  -> 6bae215471362000d6dbd3e0ee304a50
-  custom:scripting/precompiled-assembly-types:JetBrains.Rider.PathLocator:  -> cc0f6b5fd89737b9c88f7fff1881167a
-  custom:scripting/monoscript/fileName/TimelineAssetViewModel.cs:  -> 18a79fa063972d49f8538ad72ae7e75c
-  custom:scripting/precompiled-assembly-types:log4net:  -> 019978558686b3dbe60f5be7e8a69682
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.TextureAssets:  -> c56209796e0bbe0cf0954c819164de90
-  custom:scripting/precompiled-assembly-types:Unity.Timeline:  -> b058d380530d91aefff3cf869316d3f0
-  custom:scripting/precompiled-assembly-types:Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection:  -> 0065f084a5e0ee2eda32260040c06f1b
-  custom:scripting/precompiled-assembly-types:Unity.InternalAPIEngineBridge.001:  -> 727c2dd33fd9ba33b3b36d8b0abec3e5
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.Shared.Editor:  -> b1bd646cbd56acfef4597dda0faf849f
-  custom:scripting/precompiled-assembly-types:Unity.2D.IK.Runtime:  -> 834d071a903607973ce53cf2b60adb28
-  custom:scripting/precompiled-assembly-types:Unity.Burst.Cecil.Rocks:  -> 437ffcd7628e1436004701f82021574b
-  custom:scripting/precompiled-assembly-types:nunit.framework:  -> de9c6147ae45b4e3446d0e562fb3bbe3
-  custom:scripting/precompiled-assembly-types:Unity.Plastic.Newtonsoft.Json:  -> c587937513b02a3c784dfd4229f1b707
-  custom:scripting/precompiled-assembly-types:Unity.2D.SpriteShape.Editor:  -> cbc7af36169d11bf1609bbe7544dfc2f
-  custom:scripting/precompiled-assembly-types:Unity.Plastic.Antlr3.Runtime:  -> 6770513df7cfb4050a1e6f0a02312f5b
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.Core.Editor:  -> 39597c0f3a76e24d87d64afa59c5f88d
-  custom:scripting/monoscript/fileName/RuleTile.cs:  -> f5f493643c39cafead8f05df075b38cf
-  custom:scripting/monoscript/fileName/TextMeshProUGUI.cs:  -> b783d06a82b0620f102e3253b4b9fc9b
-  custom:scripting/precompiled-assembly-types:UnityEngine.TestRunner:  -> f5758234275f5346968d00e3b1a1c0e4
-  custom:scripting/precompiled-assembly-types:Unity.Settings.Editor:  -> beb7650f4acfb920369c4b53d5d1d8a0
-  custom:scripting/precompiled-assembly-types:Unity.2D.Tilemap.Extras.Editor:  -> 5ad91861b07fefd995e74ac55c89582d
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.YamlDotNet:  -> 42147c7a78dea3b36998a42e40ee1ca1
-  custom:scripting/precompiled-assembly-types:Unity.Burst.Cecil:  -> 997689720027a6523ba4efde94923b20
-  custom:scripting/precompiled-assembly-types:Unity.2D.Animation.Editor:  -> 9e298d922ee71fa5cbd30bb22b8f952c
-  custom:scripting/monoscript/fileName/PSDImporter.cs:  -> 426789f17a6318790dfce4403b2d57e3
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.Antlr3.Runtime:  -> faf423e1a2226361a83dad1da848e5b7
-  custom:scripting/precompiled-assembly-types:Unity.Collections:  -> 3ed35f6c42a4ff122eae303a72eec4b3
-  custom:scripting/precompiled-assembly-types:Unity.VSCode.Editor:  -> ce0f8be6c84057ddac8877610b9e6a0a
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.IonicZip:  -> cbdf74419b68ead93c00ca698cf31212
-  custom:scripting/monoscript/fileName/IKManager2D.cs:  -> 3556a5b41605dae06bbc257d2027da25
-  custom:scripting/precompiled-assembly-types:Unity.InternalAPIEditorBridge.001:  -> 45d5b02872a3f4596a832ecd8c76a116
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.Flow:  -> bc99c07bfe2ca209f1879006fb72d2cd
-  custom:scripting/precompiled-assembly-types:UnityEngine.UI:  -> f762135bac905e34e2b540c872c48817
-  custom:scripting/precompiled-assembly-types:Unity.Mathematics.Editor:  -> 067e2f26d70b07279a04fc60a0f0bbd6
-  custom:scripting/precompiled-assembly-types:Unity.2D.IK.Editor:  -> e3d97772a4bdb39570c653c83bcebd60
-  custom:scripting/monoscript/fileName/TimelineAsset.cs:  -> 922c4504d3900c9d0f1009b93072bf15
-  custom:scripting/precompiled-assembly-types:Unity.Collections.LowLevel.ILSupport:  -> fc98657c35e94db2b30cdf006548cc51
-  custom:scripting/precompiled-assembly-types:Unity.TextMeshPro.Editor:  -> 46ffe279a7239cd1fb74eb9c5ab5b5d8
-  custom:scripting/precompiled-assembly-types:PsdPlugin:  -> e45729d552f17846bff33f77f53e4e2d
-  custom:scripting/precompiled-assembly-types:Unity.VisualStudio.Editor:  -> 8196c7ff3a716df6975b114b464f1975
-  custom:scripting/monoscript/fileName/HexagonalRuleTile.cs:  -> 06dd7fca2700fb4aaa03a7cd13f58833
-  custom:scripting/monoscript/fileName/TrackAsset.cs:  -> 05c366eb01e12385210cbb2c784bc95b
-  custom:scripting/precompiled-assembly-types:UnityEditor.TestRunner:  -> 1b08a5e3d69264f3b8177a3e839577fe
-  custom:scripting/precompiled-assembly-types:Unity.TextMeshPro:  -> 59230975e8163396a463bd906828ec67
-  custom:scripting/monoscript/fileName/TimelineWindow.cs:  -> 1ecae22b1c6d42e0f96084d9a8d5699a
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp:  -> ec0e5f84c3a0076fe6b3c3a8b00baf13
-  custom:scripting/precompiled-assembly-types:unityplastic:  -> 26b58a4695bcfc4bd2b1d359ee452308
-  custom:scripting/precompiled-assembly-types:Unity.Rider.Editor:  -> 332fda7feca3dc3cf0d3d930da452a26
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.Flow.Editor:  -> db5f2770bb05e70eb00d2307d36e9057
-========================================================================
-Received Prepare
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.175 seconds
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.298 seconds
-Domain Reload Profiling: 472ms
-	BeginReloadAssembly (113ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (16ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (9ms)
-		LoadAssemblies (70ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (7ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (299ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (205ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (112ms)
-			ProcessInitializeOnLoadMethodAttributes (15ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 1.61 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (16.3 KB). Loaded Objects now: 2942.
-Memory consumption went from 64.4 MB to 64.4 MB.
-Total: 2.835600 ms (FindLiveObjects: 0.303300 ms CreateObjectMapping: 0.175000 ms MarkObjects: 2.335500 ms  DeleteObjects: 0.021000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Unity.2D.Aseprite.Common:  -> 6f32d9da0697a1bcfc71999c7b08d0ec
-  custom:scripting/monoscript/fileName/AnimationPlayableAsset.cs:  -> 009db08c97e92a2c69986ab256d074e2
-  custom:scripting/precompiled-assembly-types:Unity.PlasticSCM.Editor:  -> 7e4e003063ee77e81fbf11080919f8e6
-  custom:scripting/precompiled-assembly-types:Unity.Burst.Unsafe:  -> 4f83dd30d4d7964b63b36d2fe1e95684
-  custom:scripting/precompiled-assembly-types:Unity.Performance.Profile-Analyzer.Editor:  -> e1bfc0e7188f9eeca54cb211a0aba1bc
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.Core:  -> 0a21fb0e1386cc0544df7b99dc92b4ac
-  custom:scripting/monoscript/fileName/AnimationTrack.cs:  -> 579258c150686ede8cacf1f75da21715
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.State.Editor:  -> bfd19d10497364660dabdb7b0dffedf3
-  custom:scripting/precompiled-assembly-types:Unity.2D.Animation.Runtime:  -> 5dd1fd56d4abaf44f56b4de87ec96439
-  custom:scripting/precompiled-assembly-types:Unity.Burst.Editor:  -> 1bb453082d9d949b60d566d3187c97d1
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.State:  -> a1b84a027925ee482b6dab13e9d110f3
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.SettingsProvider.Editor:  -> 41414d03caeb8d6946e082e3faf34ce7
-  custom:scripting/precompiled-assembly-types:Unity.2D.Psdimporter.Editor:  -> ed563be6c9b4eabe02cd35dbfcc1f959
-  custom:scripting/precompiled-assembly-types:Unity.Burst.CodeGen:  -> 16c6c1c8fc0531945282884ffe84c4a6
-  custom:scripting/precompiled-assembly-types:Unity.2D.Tilemap.Extras:  -> 9722aa6e48a25d628be73e787a5a1bb9
-  custom:scripting/precompiled-assembly-types:Unity.2D.Common.Editor:  -> 7cbb781a6c9c3533080bdeaa9f578bb7
-  custom:scripting/precompiled-assembly-types:Unity.Collections.DocCodeSamples:  -> 23ba9e0c5ef3e46a6ff4f5179d85b4a5
-  custom:scripting/precompiled-assembly-types:Unity.TestTools.CodeCoverage.Editor.OpenCover.Model:  -> 392eba37ada58ebddffce0d6be5344c8
-  custom:scripting/monoscript/fileName/IsometricRuleTile.cs:  -> 226477e0fda8299a797033f4381d7b8f
-  custom:scripting/precompiled-assembly-types:Unity.2D.Aseprite.Editor:  -> a32e53fc284c0205a1827901e44ec098
-  custom:scripting/monoscript/fileName/TextMeshPro.cs:  -> 0cfab9de2f927cf0a5e3dc6276498acd
-  custom:scripting/precompiled-assembly-types:Unity.2D.PixelPerfect.Editor:  -> 1dd2c8662b54f7c48656e3e8769dcc99
-  custom:scripting/precompiled-assembly-types:Unity.2D.Sprite.Editor:  -> 1774135f6b0ba60c86e1eb3c8b700a0f
-  custom:scripting/precompiled-assembly-types:Unity.Burst.Cecil.Pdb:  -> 542ee58f25ed060f438b710d2d8b4fbd
-  custom:scripting/precompiled-assembly-types:Unity.2D.PixelPerfect:  -> b4d87180cdb666d4e563f0feb63adff6
-  custom:scripting/precompiled-assembly-types:Unity.Burst:  -> 813d3b3d85b4f226cca91b96115edc25
-  custom:scripting/precompiled-assembly-types:Unity.TestTools.CodeCoverage.Editor:  -> d149527e5c885a7c3085f4e656316fb7
-  custom:scripting/precompiled-assembly-types:ReportGeneratorMerged:  -> a1824cb2563ee3a5abc6d3e314b6fbb6
-  custom:scripting/precompiled-assembly-types:Unity.CollabProxy.Editor:  -> 719513884e06ae88ec6448b0e7ccc543
-  custom:scripting/precompiled-assembly-types:Unity.2D.Common.Runtime:  -> d57b2527d87b399232fb649a533f9748
-  custom:scripting/precompiled-assembly-types:Unity.Timeline.Editor:  -> 534d7c71c4dd9147ea00599cede121e1
-  custom:scripting/precompiled-assembly-types:Unity.2D.Common.Path.Editor:  -> 67ef6a7d0ffe69b88d4a058454e0baa3
-  custom:scripting/precompiled-assembly-types:Unity.EditorCoroutines.Editor:  -> 939c1390cec4719064bc8982808f80e1
-  custom:scripting/precompiled-assembly-types:Unity.Collections.BurstCompatibilityGen:  -> d26056d813c945132a21ff9f8750c98e
-  custom:scripting/precompiled-assembly-types:Unity.2D.Tilemap.Editor:  -> fa4ad37e7074ee4a4f87ffa5759d6263
-  custom:scripting/precompiled-assembly-types:Unity.Burst.Cecil.Mdb:  -> 267a0ac2928f725ab1cc9882bbfb898d
-  custom:scripting/precompiled-assembly-types:Unity.Mathematics:  -> eda48956a0bece48f802264722748d9b
-  custom:scripting/precompiled-assembly-types:Unity.2D.SpriteShape.Runtime:  -> 7951efc3114d3b5dd81068bf56c35699
-  custom:scripting/monoscript/fileName/AsepriteImporter.cs:  -> 75abe4fbe831928e105d619d45f5475b
-  custom:scripting/precompiled-assembly-types:UnityEditor.UI:  -> 6bae215471362000d6dbd3e0ee304a50
-  custom:scripting/precompiled-assembly-types:JetBrains.Rider.PathLocator:  -> cc0f6b5fd89737b9c88f7fff1881167a
-  custom:scripting/monoscript/fileName/TimelineAssetViewModel.cs:  -> 18a79fa063972d49f8538ad72ae7e75c
-  custom:scripting/precompiled-assembly-types:log4net:  -> 019978558686b3dbe60f5be7e8a69682
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.TextureAssets:  -> c56209796e0bbe0cf0954c819164de90
-  custom:scripting/precompiled-assembly-types:Unity.Timeline:  -> b058d380530d91aefff3cf869316d3f0
-  custom:scripting/precompiled-assembly-types:Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection:  -> 0065f084a5e0ee2eda32260040c06f1b
-  custom:scripting/precompiled-assembly-types:Unity.InternalAPIEngineBridge.001:  -> 727c2dd33fd9ba33b3b36d8b0abec3e5
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.Shared.Editor:  -> b1bd646cbd56acfef4597dda0faf849f
-  custom:scripting/precompiled-assembly-types:Unity.2D.IK.Runtime:  -> 834d071a903607973ce53cf2b60adb28
-  custom:scripting/precompiled-assembly-types:Unity.Burst.Cecil.Rocks:  -> 437ffcd7628e1436004701f82021574b
-  custom:scripting/precompiled-assembly-types:nunit.framework:  -> de9c6147ae45b4e3446d0e562fb3bbe3
-  custom:scripting/precompiled-assembly-types:Unity.Plastic.Newtonsoft.Json:  -> c587937513b02a3c784dfd4229f1b707
-  custom:scripting/precompiled-assembly-types:Unity.2D.SpriteShape.Editor:  -> cbc7af36169d11bf1609bbe7544dfc2f
-  custom:scripting/precompiled-assembly-types:Unity.Plastic.Antlr3.Runtime:  -> 6770513df7cfb4050a1e6f0a02312f5b
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.Core.Editor:  -> 39597c0f3a76e24d87d64afa59c5f88d
-  custom:scripting/monoscript/fileName/RuleTile.cs:  -> f5f493643c39cafead8f05df075b38cf
-  custom:scripting/monoscript/fileName/TextMeshProUGUI.cs:  -> b783d06a82b0620f102e3253b4b9fc9b
-  custom:scripting/precompiled-assembly-types:UnityEngine.TestRunner:  -> f5758234275f5346968d00e3b1a1c0e4
-  custom:scripting/precompiled-assembly-types:Unity.Settings.Editor:  -> beb7650f4acfb920369c4b53d5d1d8a0
-  custom:scripting/precompiled-assembly-types:Unity.2D.Tilemap.Extras.Editor:  -> 5ad91861b07fefd995e74ac55c89582d
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.YamlDotNet:  -> 42147c7a78dea3b36998a42e40ee1ca1
-  custom:scripting/precompiled-assembly-types:Unity.Burst.Cecil:  -> 997689720027a6523ba4efde94923b20
-  custom:scripting/precompiled-assembly-types:Unity.2D.Animation.Editor:  -> 9e298d922ee71fa5cbd30bb22b8f952c
-  custom:scripting/monoscript/fileName/PSDImporter.cs:  -> 426789f17a6318790dfce4403b2d57e3
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.Antlr3.Runtime:  -> faf423e1a2226361a83dad1da848e5b7
-  custom:scripting/precompiled-assembly-types:Unity.Collections:  -> 3ed35f6c42a4ff122eae303a72eec4b3
-  custom:scripting/precompiled-assembly-types:Unity.VSCode.Editor:  -> ce0f8be6c84057ddac8877610b9e6a0a
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.IonicZip:  -> cbdf74419b68ead93c00ca698cf31212
-  custom:scripting/monoscript/fileName/IKManager2D.cs:  -> 3556a5b41605dae06bbc257d2027da25
-  custom:scripting/precompiled-assembly-types:Unity.InternalAPIEditorBridge.001:  -> 45d5b02872a3f4596a832ecd8c76a116
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.Flow:  -> bc99c07bfe2ca209f1879006fb72d2cd
-  custom:scripting/precompiled-assembly-types:UnityEngine.UI:  -> f762135bac905e34e2b540c872c48817
-  custom:scripting/precompiled-assembly-types:Unity.Mathematics.Editor:  -> 067e2f26d70b07279a04fc60a0f0bbd6
-  custom:scripting/precompiled-assembly-types:Unity.2D.IK.Editor:  -> e3d97772a4bdb39570c653c83bcebd60
-  custom:scripting/monoscript/fileName/TimelineAsset.cs:  -> 922c4504d3900c9d0f1009b93072bf15
-  custom:scripting/precompiled-assembly-types:Unity.Collections.LowLevel.ILSupport:  -> fc98657c35e94db2b30cdf006548cc51
-  custom:scripting/precompiled-assembly-types:Unity.TextMeshPro.Editor:  -> 46ffe279a7239cd1fb74eb9c5ab5b5d8
-  custom:scripting/precompiled-assembly-types:PsdPlugin:  -> e45729d552f17846bff33f77f53e4e2d
-  custom:scripting/precompiled-assembly-types:Unity.VisualStudio.Editor:  -> 8196c7ff3a716df6975b114b464f1975
-  custom:scripting/monoscript/fileName/HexagonalRuleTile.cs:  -> 06dd7fca2700fb4aaa03a7cd13f58833
-  custom:scripting/monoscript/fileName/TrackAsset.cs:  -> 05c366eb01e12385210cbb2c784bc95b
-  custom:scripting/precompiled-assembly-types:UnityEditor.TestRunner:  -> 1b08a5e3d69264f3b8177a3e839577fe
-  custom:scripting/precompiled-assembly-types:Unity.TextMeshPro:  -> 59230975e8163396a463bd906828ec67
-  custom:scripting/monoscript/fileName/TimelineWindow.cs:  -> 1ecae22b1c6d42e0f96084d9a8d5699a
-  custom:scripting/precompiled-assembly-types:unityplastic:  -> 26b58a4695bcfc4bd2b1d359ee452308
-  custom:scripting/precompiled-assembly-types:Unity.Rider.Editor:  -> 332fda7feca3dc3cf0d3d930da452a26
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.Flow.Editor:  -> db5f2770bb05e70eb00d2307d36e9057
-========================================================================
-Received Import Request.
-  Time since last request: 662.370537 seconds.
-  path: Assets/character/Materials/player.mat
-  artifactKey: Guid(1c31a22a0ac6c9d4f8ca7460f52703ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/character/Materials/player.mat using Guid(1c31a22a0ac6c9d4f8ca7460f52703ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '9f3e5838adedbeec9091fee8bcb0cdc1') in 0.268078 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.720296 seconds.
-  path: Assets/Materials/1863D5E6-16EF-4554-A630-B3CFCC657A46.mat
-  artifactKey: Guid(79c859743dc53dd45b81dd0c5584afb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/1863D5E6-16EF-4554-A630-B3CFCC657A46.mat using Guid(79c859743dc53dd45b81dd0c5584afb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '96b9ff3f9660e7ca1d7a3fdb7ba4ffa6') in 0.020490 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 2.186987 seconds.
+  Time since last request: 1418.935587 seconds.
   path: Assets/character/1863D5E6-16EF-4554-A630-B3CFCC657A46.png
   artifactKey: Guid(a98480648dc2a7c448fc72ee4e0b3246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/character/1863D5E6-16EF-4554-A630-B3CFCC657A46.png using Guid(a98480648dc2a7c448fc72ee4e0b3246) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'ec0c7e4249bf62a96ccb64d72de39afd') in 0.040950 seconds
+ -> (artifact id: '5b102def81fedef149177cc0074e3407') in 0.084158 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Prepare
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.172 seconds
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.383 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.284 seconds
-Domain Reload Profiling: 455ms
-	BeginReloadAssembly (112ms)
+- Finished resetting the current domain, in  0.841 seconds
+Domain Reload Profiling: 1222ms
+	BeginReloadAssembly (132ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (16ms)
+		CreateAndSetChildDomain (33ms)
 	RebuildCommonClasses (24ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (7ms)
-		LoadAssemblies (69ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (194ms)
+		LoadAssemblies (254ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (4ms)
-			TypeCache.Refresh (4ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (6ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (284ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (842ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (196ms)
+		SetupLoadedEditorAssemblies (526ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (105ms)
-			ProcessInitializeOnLoadMethodAttributes (14ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (304ms)
+			ProcessInitializeOnLoadMethodAttributes (151ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 1.77 ms, found 0 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 11.14 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (14.0 KB). Loaded Objects now: 2986.
-Memory consumption went from 68.8 MB to 68.8 MB.
-Total: 2.913200 ms (FindLiveObjects: 0.226200 ms CreateObjectMapping: 0.060900 ms MarkObjects: 2.605300 ms  DeleteObjects: 0.020200 ms)
+Unloading 2486 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (26.9 KB). Loaded Objects now: 2977.
+Memory consumption went from 107.3 MB to 107.3 MB.
+Total: 7.670700 ms (FindLiveObjects: 0.257400 ms CreateObjectMapping: 0.170700 ms MarkObjects: 7.202200 ms  DeleteObjects: 0.039700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Unity.2D.Aseprite.Common:  -> 6f32d9da0697a1bcfc71999c7b08d0ec
-  custom:scripting/monoscript/fileName/AnimationPlayableAsset.cs:  -> 009db08c97e92a2c69986ab256d074e2
-  custom:scripting/precompiled-assembly-types:Unity.PlasticSCM.Editor:  -> 7e4e003063ee77e81fbf11080919f8e6
-  custom:scripting/precompiled-assembly-types:Unity.Burst.Unsafe:  -> 4f83dd30d4d7964b63b36d2fe1e95684
-  custom:scripting/precompiled-assembly-types:Unity.Performance.Profile-Analyzer.Editor:  -> e1bfc0e7188f9eeca54cb211a0aba1bc
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.Core:  -> 0a21fb0e1386cc0544df7b99dc92b4ac
-  custom:scripting/monoscript/fileName/AnimationTrack.cs:  -> 579258c150686ede8cacf1f75da21715
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.State.Editor:  -> bfd19d10497364660dabdb7b0dffedf3
-  custom:scripting/precompiled-assembly-types:Unity.2D.Animation.Runtime:  -> 5dd1fd56d4abaf44f56b4de87ec96439
-  custom:scripting/precompiled-assembly-types:Unity.Burst.Editor:  -> 1bb453082d9d949b60d566d3187c97d1
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.State:  -> a1b84a027925ee482b6dab13e9d110f3
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.SettingsProvider.Editor:  -> 41414d03caeb8d6946e082e3faf34ce7
-  custom:scripting/precompiled-assembly-types:Unity.2D.Psdimporter.Editor:  -> ed563be6c9b4eabe02cd35dbfcc1f959
-  custom:scripting/precompiled-assembly-types:Unity.Burst.CodeGen:  -> 16c6c1c8fc0531945282884ffe84c4a6
-  custom:scripting/precompiled-assembly-types:Unity.2D.Tilemap.Extras:  -> 9722aa6e48a25d628be73e787a5a1bb9
-  custom:scripting/precompiled-assembly-types:Unity.2D.Common.Editor:  -> 7cbb781a6c9c3533080bdeaa9f578bb7
-  custom:scripting/precompiled-assembly-types:Unity.Collections.DocCodeSamples:  -> 23ba9e0c5ef3e46a6ff4f5179d85b4a5
-  custom:scripting/precompiled-assembly-types:Unity.TestTools.CodeCoverage.Editor.OpenCover.Model:  -> 392eba37ada58ebddffce0d6be5344c8
-  custom:scripting/monoscript/fileName/IsometricRuleTile.cs:  -> 226477e0fda8299a797033f4381d7b8f
-  custom:scripting/precompiled-assembly-types:Unity.2D.Aseprite.Editor:  -> a32e53fc284c0205a1827901e44ec098
-  custom:scripting/monoscript/fileName/TextMeshPro.cs:  -> 0cfab9de2f927cf0a5e3dc6276498acd
-  custom:scripting/precompiled-assembly-types:Unity.2D.PixelPerfect.Editor:  -> 1dd2c8662b54f7c48656e3e8769dcc99
-  custom:scripting/precompiled-assembly-types:Unity.2D.Sprite.Editor:  -> 1774135f6b0ba60c86e1eb3c8b700a0f
-  custom:scripting/precompiled-assembly-types:Unity.Burst.Cecil.Pdb:  -> 542ee58f25ed060f438b710d2d8b4fbd
-  custom:scripting/precompiled-assembly-types:Unity.2D.PixelPerfect:  -> b4d87180cdb666d4e563f0feb63adff6
-  custom:scripting/precompiled-assembly-types:Unity.Burst:  -> 813d3b3d85b4f226cca91b96115edc25
-  custom:scripting/precompiled-assembly-types:Unity.TestTools.CodeCoverage.Editor:  -> d149527e5c885a7c3085f4e656316fb7
-  custom:scripting/precompiled-assembly-types:ReportGeneratorMerged:  -> a1824cb2563ee3a5abc6d3e314b6fbb6
-  custom:scripting/precompiled-assembly-types:Unity.CollabProxy.Editor:  -> 719513884e06ae88ec6448b0e7ccc543
-  custom:scripting/precompiled-assembly-types:Unity.2D.Common.Runtime:  -> d57b2527d87b399232fb649a533f9748
-  custom:scripting/precompiled-assembly-types:Unity.Timeline.Editor:  -> 534d7c71c4dd9147ea00599cede121e1
-  custom:scripting/precompiled-assembly-types:Unity.2D.Common.Path.Editor:  -> 67ef6a7d0ffe69b88d4a058454e0baa3
-  custom:scripting/precompiled-assembly-types:Unity.EditorCoroutines.Editor:  -> 939c1390cec4719064bc8982808f80e1
-  custom:scripting/precompiled-assembly-types:Unity.Collections.BurstCompatibilityGen:  -> d26056d813c945132a21ff9f8750c98e
-  custom:scripting/precompiled-assembly-types:Unity.2D.Tilemap.Editor:  -> fa4ad37e7074ee4a4f87ffa5759d6263
-  custom:scripting/precompiled-assembly-types:Unity.Burst.Cecil.Mdb:  -> 267a0ac2928f725ab1cc9882bbfb898d
-  custom:scripting/precompiled-assembly-types:Unity.Mathematics:  -> eda48956a0bece48f802264722748d9b
-  custom:scripting/precompiled-assembly-types:Unity.2D.SpriteShape.Runtime:  -> 7951efc3114d3b5dd81068bf56c35699
-  custom:scripting/monoscript/fileName/AsepriteImporter.cs:  -> 75abe4fbe831928e105d619d45f5475b
-  custom:scripting/precompiled-assembly-types:UnityEditor.UI:  -> 6bae215471362000d6dbd3e0ee304a50
-  custom:scripting/precompiled-assembly-types:JetBrains.Rider.PathLocator:  -> cc0f6b5fd89737b9c88f7fff1881167a
-  custom:scripting/monoscript/fileName/TimelineAssetViewModel.cs:  -> 18a79fa063972d49f8538ad72ae7e75c
-  custom:scripting/precompiled-assembly-types:log4net:  -> 019978558686b3dbe60f5be7e8a69682
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.TextureAssets:  -> c56209796e0bbe0cf0954c819164de90
-  custom:scripting/precompiled-assembly-types:Unity.Timeline:  -> b058d380530d91aefff3cf869316d3f0
-  custom:scripting/precompiled-assembly-types:Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection:  -> 0065f084a5e0ee2eda32260040c06f1b
-  custom:scripting/precompiled-assembly-types:Unity.InternalAPIEngineBridge.001:  -> 727c2dd33fd9ba33b3b36d8b0abec3e5
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.Shared.Editor:  -> b1bd646cbd56acfef4597dda0faf849f
-  custom:scripting/precompiled-assembly-types:Unity.2D.IK.Runtime:  -> 834d071a903607973ce53cf2b60adb28
-  custom:scripting/precompiled-assembly-types:Unity.Burst.Cecil.Rocks:  -> 437ffcd7628e1436004701f82021574b
-  custom:scripting/precompiled-assembly-types:nunit.framework:  -> de9c6147ae45b4e3446d0e562fb3bbe3
-  custom:scripting/precompiled-assembly-types:Unity.Plastic.Newtonsoft.Json:  -> c587937513b02a3c784dfd4229f1b707
-  custom:scripting/precompiled-assembly-types:Unity.2D.SpriteShape.Editor:  -> cbc7af36169d11bf1609bbe7544dfc2f
-  custom:scripting/precompiled-assembly-types:Unity.Plastic.Antlr3.Runtime:  -> 6770513df7cfb4050a1e6f0a02312f5b
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.Core.Editor:  -> 39597c0f3a76e24d87d64afa59c5f88d
-  custom:scripting/monoscript/fileName/RuleTile.cs:  -> f5f493643c39cafead8f05df075b38cf
-  custom:scripting/monoscript/fileName/TextMeshProUGUI.cs:  -> b783d06a82b0620f102e3253b4b9fc9b
-  custom:scripting/precompiled-assembly-types:UnityEngine.TestRunner:  -> f5758234275f5346968d00e3b1a1c0e4
-  custom:scripting/precompiled-assembly-types:Unity.Settings.Editor:  -> beb7650f4acfb920369c4b53d5d1d8a0
-  custom:scripting/precompiled-assembly-types:Unity.2D.Tilemap.Extras.Editor:  -> 5ad91861b07fefd995e74ac55c89582d
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.YamlDotNet:  -> 42147c7a78dea3b36998a42e40ee1ca1
-  custom:scripting/precompiled-assembly-types:Unity.Burst.Cecil:  -> 997689720027a6523ba4efde94923b20
-  custom:scripting/precompiled-assembly-types:Unity.2D.Animation.Editor:  -> 9e298d922ee71fa5cbd30bb22b8f952c
-  custom:scripting/monoscript/fileName/PSDImporter.cs:  -> 426789f17a6318790dfce4403b2d57e3
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.Antlr3.Runtime:  -> faf423e1a2226361a83dad1da848e5b7
-  custom:scripting/precompiled-assembly-types:Unity.Collections:  -> 3ed35f6c42a4ff122eae303a72eec4b3
-  custom:scripting/precompiled-assembly-types:Unity.VSCode.Editor:  -> ce0f8be6c84057ddac8877610b9e6a0a
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.IonicZip:  -> cbdf74419b68ead93c00ca698cf31212
-  custom:scripting/monoscript/fileName/IKManager2D.cs:  -> 3556a5b41605dae06bbc257d2027da25
-  custom:scripting/precompiled-assembly-types:Unity.InternalAPIEditorBridge.001:  -> 45d5b02872a3f4596a832ecd8c76a116
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.Flow:  -> bc99c07bfe2ca209f1879006fb72d2cd
-  custom:scripting/precompiled-assembly-types:UnityEngine.UI:  -> f762135bac905e34e2b540c872c48817
-  custom:scripting/precompiled-assembly-types:Unity.Mathematics.Editor:  -> 067e2f26d70b07279a04fc60a0f0bbd6
-  custom:scripting/precompiled-assembly-types:Unity.2D.IK.Editor:  -> e3d97772a4bdb39570c653c83bcebd60
-  custom:scripting/monoscript/fileName/TimelineAsset.cs:  -> 922c4504d3900c9d0f1009b93072bf15
-  custom:scripting/precompiled-assembly-types:Unity.Collections.LowLevel.ILSupport:  -> fc98657c35e94db2b30cdf006548cc51
-  custom:scripting/precompiled-assembly-types:Unity.TextMeshPro.Editor:  -> 46ffe279a7239cd1fb74eb9c5ab5b5d8
-  custom:scripting/precompiled-assembly-types:PsdPlugin:  -> e45729d552f17846bff33f77f53e4e2d
-  custom:scripting/precompiled-assembly-types:Unity.VisualStudio.Editor:  -> 8196c7ff3a716df6975b114b464f1975
-  custom:scripting/monoscript/fileName/HexagonalRuleTile.cs:  -> 06dd7fca2700fb4aaa03a7cd13f58833
-  custom:scripting/monoscript/fileName/TrackAsset.cs:  -> 05c366eb01e12385210cbb2c784bc95b
-  custom:scripting/precompiled-assembly-types:UnityEditor.TestRunner:  -> 1b08a5e3d69264f3b8177a3e839577fe
-  custom:scripting/precompiled-assembly-types:Unity.TextMeshPro:  -> 59230975e8163396a463bd906828ec67
-  custom:scripting/monoscript/fileName/TimelineWindow.cs:  -> 1ecae22b1c6d42e0f96084d9a8d5699a
-  custom:scripting/precompiled-assembly-types:unityplastic:  -> 26b58a4695bcfc4bd2b1d359ee452308
-  custom:scripting/precompiled-assembly-types:Unity.Rider.Editor:  -> 332fda7feca3dc3cf0d3d930da452a26
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.Flow.Editor:  -> db5f2770bb05e70eb00d2307d36e9057
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.379 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.873 seconds
+Domain Reload Profiling: 1250ms
+	BeginReloadAssembly (131ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (190ms)
+		LoadAssemblies (246ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (874ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (553ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (337ms)
+			ProcessInitializeOnLoadMethodAttributes (148ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 8.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2487 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (26.9 KB). Loaded Objects now: 2980.
+Memory consumption went from 107.6 MB to 107.6 MB.
+Total: 8.247200 ms (FindLiveObjects: 0.215800 ms CreateObjectMapping: 0.135200 ms MarkObjects: 7.840100 ms  DeleteObjects: 0.054900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.377 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.889 seconds
+Domain Reload Profiling: 1264ms
+	BeginReloadAssembly (126ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (193ms)
+		LoadAssemblies (255ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (890ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (557ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (334ms)
+			ProcessInitializeOnLoadMethodAttributes (156ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 7.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2487 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (26.9 KB). Loaded Objects now: 2983.
+Memory consumption went from 107.6 MB to 107.6 MB.
+Total: 6.794900 ms (FindLiveObjects: 0.219100 ms CreateObjectMapping: 0.125400 ms MarkObjects: 6.403500 ms  DeleteObjects: 0.046300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.388 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.912 seconds
+Domain Reload Profiling: 1298ms
+	BeginReloadAssembly (128ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (201ms)
+		LoadAssemblies (261ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (8ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (913ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (567ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (341ms)
+			ProcessInitializeOnLoadMethodAttributes (157ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 8.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2487 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (27.0 KB). Loaded Objects now: 2986.
+Memory consumption went from 107.6 MB to 107.6 MB.
+Total: 6.849000 ms (FindLiveObjects: 0.218000 ms CreateObjectMapping: 0.119900 ms MarkObjects: 6.469500 ms  DeleteObjects: 0.041100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
